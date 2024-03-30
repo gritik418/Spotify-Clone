@@ -1,0 +1,34 @@
+.container {
+  min-height: 230px;
+  width: 180px;
+  height: fit-content;
+  padding: 12px 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container:hover {
+  background-color: #ababab11;
+  transition: all 0.1s ease-in-out;
+}
+
+.image {
+  width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 14px;
+  color: #b7b7b7;
+  font-weight: 500;
+}

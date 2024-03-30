@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
         </div>
         <div className={styles.mainSection}>
           <TopBar />
+          {children}
         </div>
       </div>
       <div className={styles.bottomBar}>
