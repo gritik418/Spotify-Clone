@@ -1,0 +1,44 @@
+.container {
+  height: 65px;
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+
+.group {
+  display: flex;
+  gap: 8px;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #999;
+  font-size: 26px;
+  height: 32px;
+  width: 32px;
+  background-color: #090909;
+}
+
+.textBtn {
+  background-color: transparent;
+  color: #878787;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  outline: none;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 15px 32px;
+  color: #000;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
